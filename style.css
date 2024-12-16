@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+body {
+    background-color: #FAFAFA;;
+}
+
+#header{
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+}
+
+img {
+    margin-right: 179px;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#contactUs {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 179px;
+    border-radius: 8px;
+    border: 1px solid #AC00FF;
+    background-color: #E9D7FE;
+    color: #AC00FF;
+}
+
+main, #box{
+    width: 841px;
+    margin-top: 64px;
+    margin-left: 250px;
+}
+
+h1 {
+    width: 720px;
+    color: #323232;
+    font-family: Impact;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+}
+
+p {
+    width:  100%;
+    color: #323232;
+    font-family: "Inria Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#join {
+   display: inline;
+   width: 422px;
+   height: 54px;
+}
+
+h2 {
+    display: inline-block;
+    width: 204px;
+    padding: 16px 24px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #5C3BAE;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+#watch {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: #4D3491;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration:underline
+}
+
+#play {
+    margin: 5px 12px -8px 24px;
+}
+
+#cards, img, a{
+    margin: 0 auto;
+    padding-left: 112px;
+}
