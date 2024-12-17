@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    max-width: 1920px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     text-align: center;
 }
 
-img {
+#logo {
     margin-right: 179px;
 }
 
@@ -45,7 +46,7 @@ a {
     color: #AC00FF;
 }
 
-main, #box{
+#box, #textBox, #join{
     width: 841px;
     margin-top: 64px;
     margin-left: 250px;
@@ -90,8 +91,6 @@ h2 {
 
 #watch {
     display: inline-block;
-    padding: 0;
-    margin: 0;
     color: #4D3491;
     font-family: Inter;
     font-size: 18px;
@@ -105,7 +104,6 @@ h2 {
     margin: 5px 12px -8px 24px;
 }
 
-#cards, img, a{
-    margin: 0 auto;
-    padding-left: 112px;
+#cards{
+    text-align: right;
 }
